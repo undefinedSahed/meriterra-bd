@@ -1,163 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mariterra Corporation — A diversified service provider delivering integrated solutions across land and maritime sectors. Established in 2020."
+    />
+    <title>
+      Mariterra Corporation | Navigating Today. Developing Tomorrow.
+    </title>
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="Mariterra Corporation — A diversified service provider delivering integrated solutions across land and maritime sectors. Established in 2020.">
-  <title>Mariterra Corporation | Navigating Today. Developing Tomorrow.</title>
-  <link rel="icon" type="image/png" href="assets/logo.png">
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body>
-
-  <!-- ========== HEADER / NAVIGATION ========== -->
-  <header class="header" id="header">
-    <nav class="nav-container">
-      <a href="#" class="nav-logo">
-        <img src="assets/logo.png" alt="Mariterra Corporation Logo">
-      </a>
-      <div class="nav-links" id="navLinks">
-        <a href="#hero" class="active">HOME</a>
-        <a href="#about">ABOUT US</a>
-        <a href="#services">SERVICES</a>
-        <a href="#projects">PROJECTS</a>
-        <a href="#contact">CONTACT US</a>
-        <a href="#contact" class="nav-cta">GET IN TOUCH <span class="arrow">›</span></a>
-      </div>
-      <div class="mobile-toggle" id="mobileToggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </nav>
-  </header>
-
-  <!-- ========== HERO SECTION ========== -->
-  <section class="hero" id="hero">
-    <div class="hero-bg">
-      <img src="assets/hero-bg.png" alt="Maritime port operations">
-    </div>
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <div class="hero-text">
-        <!-- Rendered by JS -->
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== ABOUT SECTION ========== -->
-  <section class="about-section" id="about">
-    <div class="container">
-      <div class="section-header">
-        <h2>About Mariterra Corporation</h2>
-      </div>
-      <div class="about-content" id="aboutContent">
-        <!-- Rendered by JS -->
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== MISSION / VISION / COMMITMENT SECTION ========== -->
-  <section class="mvc-section" id="missionVision">
-    <div class="mvc-grid" id="mvcGrid">
-      <!-- Rendered by JS -->
-    </div>
-  </section>
-
-  <!-- ========== SERVICES SECTION ========== -->
-  <section class="services-section" id="services">
-    <div class="section-header">
-      <h2>OUR SERVICES</h2>
-    </div>
-    <div class="services-grid" id="servicesGrid">
-      <!-- Rendered by JS -->
-    </div>
-  </section>
-
-  <!-- ========== PROJECT GALLERY SECTION ========== -->
-  <section class="projects-section" id="projects">
-    <div class="container">
-      <div class="projects-header-wrapper">
-        <div class="projects-header-left">
-          <div class="projects-track-record">
-            <span class="line"></span> OUR TRACK RECORD
-          </div>
-          <h2 class="projects-title">
-            Projects &<br>
-            <span class="text-gold">Achievements</span>
-          </h2>
+  <body>
+    <!-- ========== HEADER / NAVIGATION ========== -->
+    <header class="header" id="header">
+      <nav class="nav-container">
+        <a href="#hero" class="nav-logo">
+          <img src="assets/logo.png" alt="Mariterra Corporation Logo" />
+        </a>
+        <div class="nav-links" id="navLinks">
+          <a href="#hero" class="active">HOME</a>
+          <a href="#about">ABOUT US</a>
+          <a href="#services">SERVICES</a>
+          <a href="#projects">PROJECTS</a>
+          <a href="#contact" class="nav-cta"
+            >GET IN TOUCH <span class="arrow">›</span></a
+          >
         </div>
-        <div class="projects-header-right">
-          <p>Successfully planned, supported, and delivered government and private construction projects alongside maritime operations.</p>
+        <div class="mobile-toggle" id="mobileToggle">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-      </div>
-    </div>
-    <div class="projects-gallery" id="projectsGallery">
-      <!-- Rendered by JS -->
-    </div>
-  </section>
+      </nav>
+    </header>
 
-  <!-- ========== CONTACT SECTION ========== -->
-  <section class="contact-section" id="contact">
-    <div class="container">
-      <div class="section-header">
-        <h2>CONTACT US</h2>
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="hero">
+      <div class="hero-bg">
+        <img src="assets/hero-bg.png" alt="Maritime port operations" />
       </div>
-      <div class="contact-grid">
-        <div class="contact-info" id="contactInfo">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <div class="hero-text">
           <!-- Rendered by JS -->
         </div>
-        <div class="contact-form-wrapper">
-          <form class="contact-form" id="contactForm">
-            <h3 class="form-title">Send Us a Message</h3>
-            <div class="form-group">
-              <input type="text" id="fromName" name="from_name" placeholder="Your Full Name" required>
-            </div>
-            <div class="form-group">
-              <input type="email" id="fromEmail" name="from_email" placeholder="Your Email Address" required>
-            </div>
-            <div class="form-group">
-              <input type="text" id="subject" name="subject" placeholder="Subject" required>
-            </div>
-            <div class="form-group">
-              <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
-            </div>
-            <button type="submit" class="btn-submit" id="submitBtn">
-              <span class="btn-text">Send Message</span>
-              <span class="btn-loading" style="display:none;">Sending...</span>
-            </button>
-            <p class="form-status" id="formStatus"></p>
-          </form>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Mariterra Corporation</h2>
+        </div>
+        <div class="about-content" id="aboutContent">
+          <!-- Rendered by JS -->
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ========== FOOTER ========== -->
-  <footer class="footer">
-    <div class="footer-content">
-      <div class="footer-tagline">
-        <span class="anchor-icon">⚓</span>
-        <span>ON LAND. AT SEA. BEYOND EXPECTATIONS.</span>
-      </div>
-      <div class="footer-values" id="footerValues">
+    <!-- ========== MISSION / VISION / COMMITMENT SECTION ========== -->
+    <section class="mvc-section" id="missionVision">
+      <div class="mvc-grid" id="mvcGrid">
         <!-- Rendered by JS -->
       </div>
+    </section>
 
-    </div>
-  </footer>
+    <!-- ========== SERVICES SECTION ========== -->
+    <section class="services-section" id="services">
+      <div class="section-header">
+        <h2>OUR SERVICES</h2>
+      </div>
+      <div class="services-grid" id="servicesGrid">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
 
-  <!-- EmailJS SDK -->
-  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-  <!-- Data Files -->
-  <script src="data/services.js"></script>
-  <script src="data/about.js"></script>
-  <!-- Main Application -->
-  <script src="js/app.js"></script>
+    <!-- ========== PROJECT GALLERY SECTION ========== -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="projects-header-wrapper">
+          <div class="projects-header-left">
+            <div class="projects-track-record">
+              <span class="line"></span> OUR TRACK RECORD
+            </div>
+            <h2 class="projects-title">
+              Projects &<br />
+              <span class="text-gold">Expertise</span>
+            </h2>
+          </div>
+          <div class="projects-header-right">
+            <p>
+              Successfully planned, supported, and delivered government and
+              private construction projects alongside maritime operations.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="projects-gallery" id="projectsGallery">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
 
-</body>
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>CONTACT US</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info" id="contactInfo">
+            <!-- Rendered by JS -->
+          </div>
+          <div class="contact-form-wrapper">
+            <form class="contact-form" id="contactForm">
+              <h3 class="form-title">Send Us a Message</h3>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="fromName"
+                  name="from_name"
+                  placeholder="Your Full Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="fromEmail"
+                  name="from_email"
+                  placeholder="Your Email Address"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn-submit" id="submitBtn">
+                <span class="btn-text">Send Message</span>
+                <span class="btn-loading" style="display: none"
+                  >Sending...</span
+                >
+              </button>
+              <p class="form-status" id="formStatus"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-tagline">
+          <span class="anchor-icon">⚓</span>
+          <span>ON LAND. AT SEA. BEYOND EXPECTATIONS.</span>
+        </div>
+        <div class="footer-values" id="footerValues">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+    </footer>
+
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!-- Data Files -->
+    <script src="data/services.js"></script>
+    <script src="data/about.js"></script>
+    <!-- Main Application -->
+    <script src="js/app.js"></script>
+  </body>
 </html>

@@ -159,9 +159,6 @@ img {
   border-radius: 4px !important;
   font-weight: 700 !important;
   letter-spacing: 0.5px;
-  display: flex;
-  align-items: center;
-  gap: 6px;
   transition: var(--transition);
 }
 
@@ -625,7 +622,7 @@ img {
 .projects-gallery {
   display: grid;
   grid-template-columns: 1fr 0.5fr 0.5fr;
-  grid-template-rows: repeat(2, 200px);
+  grid-template-rows: repeat(2, 250px);
   gap: 10px;
   max-width: 1400px;
   margin: 0 auto;
