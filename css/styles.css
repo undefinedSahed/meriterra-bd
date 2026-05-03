@@ -76,7 +76,7 @@ img {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: rgba(27, 42, 74, 0.95);
+  background: var(--cream);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(200, 164, 92, 0.15);
@@ -84,7 +84,7 @@ img {
 }
 
 .header.scrolled {
-  background: rgba(17, 29, 51, 0.98);
+  background: var(--cream);
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
 }
 
@@ -116,7 +116,7 @@ img {
 }
 
 .nav-links a {
-  color: var(--white);
+  color: var(--navy);
   font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -194,9 +194,16 @@ img {
 .mobile-toggle span {
   width: 28px;
   height: 3px;
-  background: var(--white);
+  background: var(--navy);
   border-radius: 3px;
   transition: var(--transition);
+}
+
+.logo-text {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--navy);
+  margin-left: 12px;
 }
 
 /* ---------- HERO SECTION ---------- */
@@ -1043,6 +1050,27 @@ img {
     display: flex;
   }
 
+  .nav-links a {
+    color: var(--white);
+    padding: 12px 20px;
+    border-radius: 6px;
+  }
+
+  .nav-links a:hover,
+  .nav-links a.active {
+    color: var(--gold);
+    background: rgba(200, 164, 92, 0.1);
+  }
+
+  .logo-text {
+    font-size: 20px;
+    margin-left: 8px;
+  }
+
+  .nav-logo img {
+    height: 50px;
+  }
+
   .mobile-toggle {
     display: flex;
   }
@@ -1184,5 +1212,19 @@ img {
 
   .project-item {
     height: 200px;
+  }
+
+  .logo-text {
+    font-size: 16px;
+    margin-left: 6px;
+  }
+
+  .nav-logo img {
+    height: 40px;
+  }
+
+  .nav-container {
+    padding: 0 15px;
+    height: 60px;
   }
 }

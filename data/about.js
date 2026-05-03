@@ -56,7 +56,7 @@ const GALLERY_DATA = [
 
 const CONTACT_DATA = {
   email: "ops@mariterrabd.com",
-  phone: "+880-XXXX-XXXXXX",
+  phone: "+880 1335 050011",
   corporate:
     "Tower 71, 9th Floor, 71 Agrabad C/A, Chittagong 4100, Bangladesh.",
   dhaka:
