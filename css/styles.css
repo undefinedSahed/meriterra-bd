@@ -285,7 +285,7 @@ img {
   align-items: center;
   gap: 12px;
   font-family: var(--font-body);
-  font-size: 0.85rem;
+  font-size: 0.65rem;
   font-weight: 500;
   color: var(--gold);
   letter-spacing: 3px;
@@ -1039,6 +1039,22 @@ img {
 }
 
 @media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .section-header h2 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 1.1rem;
+  }
+
+  .section-header h2::before,
+  .section-header h2::after {
+    width: 40px;
+  }
+
   .nav-links {
     display: none;
     position: fixed;
@@ -1090,7 +1106,11 @@ img {
   }
 
   .hero-content {
-    padding: 40px 20px 30px;
+    padding: 30px 15px 20px;
+  }
+
+  .hero-text {
+    max-width: 100%;
   }
 
   .mvc-grid {
@@ -1106,10 +1126,11 @@ img {
 
   .services-grid {
     gap: 8px;
+    padding: 0 10px;
   }
 
   .service-card {
-    width: 90px;
+    width: 100%;
   }
 
   .service-icon {
@@ -1165,6 +1186,39 @@ img {
 }
 
 @media (max-width: 480px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .section-header {
+    margin-bottom: 30px;
+  }
+
+  .section-header h2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+  }
+
+  .section-header h2::before,
+  .section-header h2::after {
+    width: 30px;
+  }
+
+  .hero-content {
+    padding: 25px 10px 15px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
   .hero-title {
     font-size: 1.6rem;
   }
@@ -1183,7 +1237,7 @@ img {
   }
 
   .service-card {
-    width: 150px;
+    width: 100%;
   }
 
   .service-icon {
@@ -1197,6 +1251,7 @@ img {
 
   .services-grid {
     grid-template-columns: repeat(2, 1fr) !important;
+    padding: 0 8px;
   }
 
   .projects-track-record {
@@ -1213,7 +1268,7 @@ img {
 
   .projects-gallery {
     gap: 8px;
-    padding: 0 10px;
+    padding: 0 8px;
   }
 
   .project-item {
@@ -1230,7 +1285,15 @@ img {
   }
 
   .nav-container {
-    padding: 0 15px;
+    padding: 0 10px;
     height: 60px;
+  }
+
+  .hero {
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
   }
 }
