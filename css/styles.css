@@ -867,7 +867,7 @@ img {
 
 /* ---------- FOOTER ---------- */
 .footer {
-  background: var(--navy);
+  background: var(--cream);
   padding: 20px 0;
   border-top: 3px solid var(--gold);
 }
@@ -887,12 +887,18 @@ img {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: var(--gold);
+  color: var(--navy);
   font-family: var(--font-heading);
   font-size: 0.8rem;
   font-weight: 600;
   font-style: italic;
   letter-spacing: 0.5px;
+}
+
+.footer-tagline img {
+  height: 90px;
+  aspect-ratio: 4/2;
+  object-fit: cover;
 }
 
 .footer-tagline .anchor-icon {
@@ -906,8 +912,8 @@ img {
 }
 
 .footer-value {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 0.75rem;
+  color: var(--navy);
+  font-size: 20px;
   font-weight: 500;
   padding: 6px 18px;
   border-left: 1px solid rgba(200, 164, 92, 0.3);
@@ -919,11 +925,11 @@ img {
 }
 
 .footer-value:hover {
-  color: var(--gold);
+  color: var(--navy);
 }
 
 .footer-website {
-  color: var(--white);
+  color: var(--navy);
   font-size: 0.8rem;
   font-weight: 600;
   display: flex;
