@@ -160,8 +160,8 @@ function renderContactInfo() {
     <div class="contact-detail animate-on-scroll animate-delay-3">
       <div class="contact-detail-icon">🏢</div>
       <div class="contact-detail-content">
-        <h4>Dhaka Office</h4>
-        <p>${CONTACT_DATA.dhaka}</p>
+        <h4>Singapore Office</h4>
+        <p>${CONTACT_DATA.singapore}</p>
       </div>
     </div>
   `;
