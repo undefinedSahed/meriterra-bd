@@ -133,14 +133,6 @@ function renderContactInfo() {
     <h3 class="contact-info-title">Get In Touch With Us</h3>
     <p class="contact-info-desc">Have a question, project inquiry, or partnership opportunity? We'd love to hear from you. Reach out and our team will respond promptly.</p>
 
-    <div class="contact-detail animate-on-scroll animate-delay-1">
-      <div class="contact-detail-icon">📧</div>
-      <div class="contact-detail-content">
-        <h4>Email</h4>
-        <a href="mailto:${CONTACT_DATA.email}">${CONTACT_DATA.email}</a>
-      </div>
-    </div>
-
     <div class="contact-detail animate-on-scroll animate-delay-2">
       <div class="contact-detail-icon">📞</div>
       <div class="contact-detail-content">
@@ -152,16 +144,20 @@ function renderContactInfo() {
     <div class="contact-detail animate-on-scroll animate-delay-3">
       <div class="contact-detail-icon">💼</div>
       <div class="contact-detail-content">
-        <h4>Corporate Office</h4>
-        <p>${CONTACT_DATA.corporate}</p>
+        <h4>🇧🇩 Bangladesh Office</h4>
+        <p>${CONTACT_DATA.bangladesh.name}</p>
+        <p>${CONTACT_DATA.bangladesh.office}</p>
+        <a href="mailto:${CONTACT_DATA.bangladesh.email}">Email: ${CONTACT_DATA.bangladesh.email}</a>
       </div>
     </div>
 
     <div class="contact-detail animate-on-scroll animate-delay-3">
       <div class="contact-detail-icon">🏢</div>
       <div class="contact-detail-content">
-        <h4>Singapore Office</h4>
-        <p>${CONTACT_DATA.singapore}</p>
+        <h4>🇸🇬 Singapore Office</h4>
+        <p>${CONTACT_DATA.singapore.name}</p>
+        <p>${CONTACT_DATA.singapore.office}</p>
+        <a href="mailto:${CONTACT_DATA.singapore.email}">Email: ${CONTACT_DATA.singapore.email}</>
       </div>
     </div>
   `;
@@ -289,7 +285,10 @@ function updateActiveNavLink() {
   sections.forEach((section) => {
     const sectionTop = section.offsetTop - 100; // Offset for header
     const sectionHeight = section.offsetHeight;
-    if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+    if (
+      window.scrollY >= sectionTop &&
+      window.scrollY < sectionTop + sectionHeight
+    ) {
       currentSection = section.getAttribute("id");
     }
   });

@@ -55,10 +55,16 @@ const GALLERY_DATA = [
 ];
 
 const CONTACT_DATA = {
-  email: "ops@mariterrabd.com",
   phone: "+880 1335 050011",
-  corporate:
-    "Tower 71, 9th Floor, 71 Agrabad C/A, Chittagong 4100, Bangladesh.",
-  singapore:
-    "Mariterra Corporation Singapore Pte. Ltd. Level 29, IOI Central Boulevard Towers, 2 Central Blvd, 018916, Singapore.",
+  bangladesh: {
+    name: "Mariterra Corporation",
+    email: "ops@mariterrabd.com",
+    office: "Tower 71, 9th Floor, 71 Agrabad C/A, Chittagong 4100, Bangladesh.",
+  },
+  singapore: {
+    name: "Mariterra Corporation (Singapore) Pte. Ltd.",
+    email: "singapore@mariterrabd.com",
+    office:
+      "Level 29, IOI Central Boulevard Towers, 2 Central Blvd, 018916, Singapore.",
+  },
 };

@@ -15,14 +15,14 @@ const SERVICES_DATA = [
     icon: "assets/media4.png"
   },
   {
-    id: 4,
-    title: "SHIP BROKERAGE SERVICES",
-    icon: "assets/media3.jpg.jpeg"
-  },
-  {
     id: 5,
     title: "SHIP SALE & PURCHASE FACILITATION",
     icon: "assets/icon-service2.png"
+  },
+  {
+    id: 4,
+    title: "B2B Trade Facilitation – Petroleum & Solar Energy",
+    icon: "assets/media3.jpeg"
   },
   {
     id: 6,
