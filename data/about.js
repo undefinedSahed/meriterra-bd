@@ -59,6 +59,6 @@ const CONTACT_DATA = {
   phone: "+880 1335 050011",
   corporate:
     "Tower 71, 9th Floor, 71 Agrabad C/A, Chittagong 4100, Bangladesh.",
-  dhaka:
-    "7th Floor, Regus Crystal Palace, House # SE (D), Gulshan 1, Road: 22, Dhaka 1212, Bangladesh.",
+  singapore:
+    "Mariterra Corporation Singapore Pte. Ltd. Level 29, IOI Central Boulevard Towers, 2 Central Blvd, 018916, Singapore.",
 };
